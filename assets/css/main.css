@@ -1,5 +1,5 @@
 html, body {
-    background-color: rgb(190 24 93);
+    
 }
 
 .page-enter-from{
@@ -9,7 +9,7 @@ html, body {
 
 .page-enter-active,
 .page-leave-active {
-    transition: all 0.2s;
+    transition: all .3s;
 }
 .page-enter,
 .page-leave-to {
