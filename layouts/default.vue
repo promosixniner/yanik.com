@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="bar">
-      <div class="brand">Yaniko</div>
+      <NuxtLink class="brand" :to="{ name: 'index' }"><img src="/y.svg" class="logo"/></NuxtLink>
       <div class="nav">
         <NuxtLink class="link" :to="{ name: 'index' }">Home</NuxtLink>
         <NuxtLink class="link" :to="{ name: 'about' }">About</NuxtLink>
@@ -33,6 +33,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .brand {
-  font-size: 32px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 128px;
 }
 </style>
