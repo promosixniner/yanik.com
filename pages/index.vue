@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Hello this is Yanik Love's blog</h1>
-    
+    <Title>Hello this is Yanik Love's blog</Title>
+
     <p>
       lorem ipsum blablabla lorem ipsum blablabla lorem ipsum blablabla lorem
       ipsum blablabla lorem ipsum blablabla lorem ipsum blablabla lorem ipsum

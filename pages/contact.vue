@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>Contact Yanik Love</h1>
+    <Title>Contact Yanik Love</Title>
   </div>
 </template>
