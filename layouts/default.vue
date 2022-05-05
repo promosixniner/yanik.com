@@ -32,4 +32,7 @@
 .content {
   font-family: Arial, Helvetica, sans-serif;
 }
+.brand {
+  font-size: 32px;
+}
 </style>
