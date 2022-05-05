@@ -1,23 +1,35 @@
 <template>
-  <div>
-    <div class="nav">
-      <NuxtLink class="link" :to="{ name: 'index' }">Home</NuxtLink>
-      <NuxtLink class="link" :to="{ name: 'about' }">About</NuxtLink>
-      <NuxtLink class="link" :to="{ name: 'contact' }">Contact</NuxtLink>
+  <div class="content">
+    <div class="bar">
+      <div class="brand">Yaniko</div>
+      <div class="nav">
+        <NuxtLink class="link" :to="{ name: 'index' }">Home</NuxtLink>
+        <NuxtLink class="link" :to="{ name: 'about' }">About</NuxtLink>
+        <NuxtLink class="link" :to="{ name: 'contact' }">Contact</NuxtLink>
+      </div>
     </div>
     <slot />
   </div>
 </template>
 <style scoped>
 .link {
-  background-color: blueviolet;
+  background-color: rgb(43, 95, 226);
   color: white;
-  padding: 6px;
-  border-radius: 24px;
+  padding: 6px 32px;
+  border-radius: 4px;
   text-decoration: none;
 }
 .nav {
   gap: 9px;
   display: flex;
+}
+.bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  align-items: center;
+}
+.content {
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>

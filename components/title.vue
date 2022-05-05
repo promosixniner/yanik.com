@@ -4,5 +4,6 @@
 <style>
 .titlecolor {
   color: blue;
+  text-align: center;
 }
 </style>
