@@ -15,7 +15,7 @@
 </template>
 <style scoped>
 .link {
-  background-color: rgb(43, 95, 226);
+  background-color: rgb(14, 166, 30);
   color: white;
   padding: 6px 32px;
   border-radius: 4px;
