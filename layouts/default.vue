@@ -1,12 +1,13 @@
 <template>
   <div class="content">
     <div class="bar">
-      <NuxtLink class="brand" :to="{ name: 'index' }"
-        ><img src="/y.svg" class="logo"
-      /></NuxtLink>
+      <NuxtLink class="brand" :to="{ name: 'index' }">
+        <img src="/y.svg" class="logo"/>
+      </NuxtLink>
       <div class="nav">
         <NuxtLink class="link" :to="{ name: 'about' }">About</NuxtLink>
         <NuxtLink class="link" :to="{ name: 'contact' }">Contact</NuxtLink>
+        <NuxtLink class="link" :to="{ name: 'images' }">Images</NuxtLink>
       </div>
     </div>
     <slot />
