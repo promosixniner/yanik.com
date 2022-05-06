@@ -6,7 +6,7 @@
       at 00:52 local time
     </p>
     <p>As a pure Generator in Human Design, Yanik's authority is Sacral</p>
-    <p><img src="/human-design-yanik.jpeg" class="human" /></p>
+    <p><img src="/human-design-chart-yanik.png" class="human" /></p>
   </div>
 </template>
 
@@ -14,5 +14,6 @@
 .human {
   display: flex;
   align-items: center;
+  width: 90%;
 }
 </style>

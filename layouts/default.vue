@@ -5,7 +5,6 @@
         ><img src="/y.svg" class="logo"
       /></NuxtLink>
       <div class="nav">
-        <NuxtLink class="link" :to="{ name: 'index' }">Home</NuxtLink>
         <NuxtLink class="link" :to="{ name: 'about' }">About</NuxtLink>
         <NuxtLink class="link" :to="{ name: 'contact' }">Contact</NuxtLink>
       </div>
