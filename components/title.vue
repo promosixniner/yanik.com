@@ -3,7 +3,7 @@
 </template>
 <style>
 .titlecolor {
-  color: blue;
+  color: rgb(62, 174, 14);
   text-align: center;
 }
 </style>
